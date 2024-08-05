@@ -1,0 +1,18 @@
+2024-08-05 16:19:51,510 main.py[line:539]INFO - connection succeeded !
+2024-08-05 16:19:51,510 main.py[line:539]INFO - connection succeeded !
+2024-08-05 16:19:55,767 main.py[line:824]INFO - Color recognition ok
+2024-08-05 16:19:55,767 main.py[line:824]INFO - Color recognition ok
+2024-08-05 16:21:41,615 main.py[line:577]INFO - Disconnected successfully !
+2024-08-05 16:21:41,615 main.py[line:577]INFO - Disconnected successfully !
+2024-08-05 16:21:41,948 main.py[line:1967]INFO - Traceback (most recent call last):
+  File "c:\Users\USER\Documents\VisualCode\AiKit_UI\main.py", line 1954, in moved
+    self.myCobot.send_angles(self.move_angles[0], 25)
+AttributeError: 'NoneType' object has no attribute 'send_angles'
+
+2024-08-05 16:21:41,948 main.py[line:1967]INFO - Traceback (most recent call last):
+  File "c:\Users\USER\Documents\VisualCode\AiKit_UI\main.py", line 1954, in moved
+    self.myCobot.send_angles(self.move_angles[0], 25)
+AttributeError: 'NoneType' object has no attribute 'send_angles'
+
+2024-08-05 16:21:42,086 main.py[line:345]INFO - Mycobot is not connected yet! ! ! Please connect to myCobot first! ! !
+2024-08-05 16:21:42,086 main.py[line:345]INFO - Mycobot is not connected yet! ! ! Please connect to myCobot first! ! !
