@@ -1839,13 +1839,13 @@ class AiKit_APP(AiKit_window, QMainWindow, QWidget):
                                 self.myCobot.send_coords([x, y, self.camera_z, 0], 20, 0)
                                 self.stop_wait(1.5)
                             elif device == 'mechArm 270 for Pi' or device == 'mechArm 270 for M5':
-                                self.myCobot.send_coords([x, y, 110, -176.1, 2.4, -125.1], 25,
+                                self.myCobot.send_coords([x, y, 110, -173.3, -5.48, -57.9], 25,
                                                          0)  # usb :rx,ry,rz -173.3, -5.48, -57.9
                                 self.stop_wait(3)
                                 self.myCobot.send_coords([x, y, self.camera_z, -176.1, 2.4, -125.1], 25, 0)
                                 self.stop_wait(3)
                             elif device == 'myCobot 280 for Pi' or device == 'myCobot 280 for M5':
-                                self.myCobot.send_coords([x, y, 170.6, 179.87, -3.78, -62.75], 25,
+                                self.myCobot.send_coords([x, y, 170.6, -173.3, -5.48, -57.9], 25,
                                                          0)  # usb :rx,ry,rz -173.3, -5.48, -57.9
                                 self.stop_wait(3)
                                 self.myCobot.send_coords([x, y, self.camera_z, 179.87, -3.78, -62.75], 25, 0)
@@ -1868,13 +1868,13 @@ class AiKit_APP(AiKit_window, QMainWindow, QWidget):
                                 self.myCobot.send_coords([x, y, self.camera_z, 0], 20, 0)
                                 self.stop_wait(1.5)
                             elif device == 'mechArm 270 for Pi' or device == 'mechArm 270 for M5':
-                                self.myCobot.send_coords([x, y, 150, -176.1, 2.4, -125.1], 25,
+                                self.myCobot.send_coords([x, y, 150, -173.3, -5.48, -57.9], 25,
                                                          0)  # usb :rx,ry,rz -173.3, -5.48, -57.9
                                 self.stop_wait(3)
                                 self.myCobot.send_coords([x, y, self.camera_z, -176.1, 2.4, -125.1], 25, 0)
                                 self.stop_wait(3)
                             elif device == 'myCobot 280 for Pi' or device == 'myCobot 280 for M5':
-                                self.myCobot.send_coords([x, y, 170.6, 179.87, -3.78, -62.75], 25,
+                                self.myCobot.send_coords([x, y, 170.6, -173.3, -5.48, -57.9], 25,
                                                          0)  # usb :rx,ry,rz -173.3, -5.48, -57.9
                                 self.stop_wait(3)
                                 self.myCobot.send_coords([x, y, self.camera_z, 179.87, -3.78, -62.75], 25, 0)
